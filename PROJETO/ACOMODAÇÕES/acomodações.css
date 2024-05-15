@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAF6F0;
+    background-size: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    height: 110px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    letter-spacing: 5px;
+    margin-left: 30px;
+}
+
+#container{
+    width: 100%;
+    height: 630px;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29,0.9)23.83%, rgba(0,8,29,0.3)96.1%),url(https://www.altoastral.com.br/antigas/uploads/legacy/2017/06/apartamento-tres-comodos.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#text{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 440px;
+    color: white;
+    font-family  : Verdana, Geneva, Tahoma, sans-serif ;
+}
+#text-1{
+    width: 900px;
+    height: 160px;
+    margin-left: 350px;
+    font-family:   Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    color: #403939
+}
+#h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 35px;
+}
+#presidencial{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+#imgP{
+    width: 700px;
+    margin-left: 15px;
+}
+#text-2{
+    width: 45%;
+    height: 350px;
+    margin-left: 50px;
+}
+#parg-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 18px;
+    margin-top: 30px;
+    color: #403939 
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+#suite{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#imgS{
+    width: 700px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#text-3{
+    width: 45%;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#parg-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 18px;
+    margin-top: 30px;
+    color: #403939 
+}
+#triplo{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+#imgT{
+    width: 700px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#text-4{
+    width: 45%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 50px
+}
+#parg-3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 18px;
+    margin-top: 30px;
+    color: #403939 
+}
+#premium{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+#imgPR{
+    width: 700px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#text-5{
+    width: 45%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 50px
+}
+#parg-4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif 18px;
+    margin-top: 30px;
+    color: #403939 
+}
+
+footer{
+    background-color: #F4DFC8;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+.hotelparadisefooter{
+    font-size: 15px;
+    width: 30%;
+    height: 50%;
+    color: #000;
+    position: relative;
+    bottom: -100px;
+}
+
+.informacoes{
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -50px;
+    left: -175px;
+    color: #000;
+}
+
+.sociais{
+    height: 50%;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    bottom: -30px;
+}

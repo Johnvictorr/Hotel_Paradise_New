@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://pizarromoveis.com.br/images/images/quartos-de-hotel-feitos-com-moveis-planejados.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    height: 110px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    letter-spacing: 5px;
+    margin-left: 30px;
+}
+
+.reservar form{
+    width: 100%;
+    height: 200px;
+    background-color: #F4EAE0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    outline: unset;
+    position: relative;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.reservar input, select{
+    border: 1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+.reservar input, select:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.botaoreservar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaomassagem:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+footer{
+    background-color: #F4DFC8;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 486px;
+}
+
+.hotelparadisefooter{
+    font-size: 15px;
+    width: 30%;
+    height: 50%;
+    color: #000;
+    position: relative;
+    bottom: -100px;
+}
+
+.informacoes{
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -50px;
+    left: -175px;
+    color: #000;
+}
+
+.sociais{
+    height: 50%;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    bottom: -30px;
+}

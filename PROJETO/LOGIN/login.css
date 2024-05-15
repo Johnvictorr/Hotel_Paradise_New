@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    height: 110px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    letter-spacing: 5px;
+    margin-left: 30px;
+}
+
+body {
+background-image: linear-gradient(103.24deg, rgba(0, 8, 29,0.9) 23.83%, rgba(0,8,29,0.3)96.1%),url(https://conteudo.solutudo.com.br/wp-content/uploads/2021/11/hotel.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+h1{
+  background-color: #F4DFC8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Login{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 160px;
+    margin-left: 430px;
+    height: 350px;
+    width: 650px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #F4DFC8;
+    z-index: 0;
+}
+
+#caixa-form{
+    margin-top: -370px;
+    width: 260px;
+    margin-left: 780px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4DFC8;
+    border-radius: 15px;
+    padding: 10px;
+    color: #000000 ;
+    z-index: 1;
+}
+#input2{
+    color: #F4DFC8;
+    width: 250px;
+    height: 30px;
+    margin-left: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #F4DFC8 ;
+    padding: 15px;
+}
+#input{
+    color: #000000;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+    
+}
+#legend1{
+    border: 1px solid;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #F4DFC8;
+    padding: 5px;
+    left: 15px;
+}
+#legend2{
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    border-bottom:1px solid  ;
+
+}
+#btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 160px;
+}
+#btn-1{
+    
+    margin-top: 20px;
+    margin-left: 260px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+footer{
+    background-color: #F4DFC8;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 150px;
+}
+
+.hotelparadisefooter{
+    font-size: 15px;
+    width: 30%;
+    height: 50%;
+    color: #000;
+    position: relative;
+    bottom: -100px;
+}
+
+.informacoes{
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -50px;
+    left: -175px;
+    color: #000;
+}
+
+.sociais{
+    height: 50%;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    bottom: -30px;
+}

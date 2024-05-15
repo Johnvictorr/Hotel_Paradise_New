@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAF6F0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    height: 110px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    letter-spacing: 5px;
+    margin-left: 30px;
+}
+#container{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29,0.9)23.83%, rgba(0,8,29,0.3)96.1%),url(https://www.lagunapraia.com.br/portal/img/hotel/12.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#text{
+    position: relative;
+    top: 250px;
+    margin-left: 560px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+ }
+
+.eventoscinema{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fotocinema{
+    margin: 10px;
+    padding: 10px;
+}
+
+.textocinema{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F4EAE0;
+}
+
+.botaocinema{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaocinema:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.eventosfestas{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fotofestas{
+    margin: 10px;
+    padding: 10px;
+}
+
+.textofestas{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F4EAE0;
+}
+
+.botaofestas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaofestas:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.eventosjogos{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fotojogos{
+    margin: 10px;
+    padding: 10px;
+}
+
+.textojogos{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F4EAE0;
+}
+
+.botaojogos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaojogos:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.eventosmassagem{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fotomassagem{
+    margin: 10px;
+    padding: 10px;
+}
+
+.textomassagem{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F4EAE0;
+}
+
+.botaomassagem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botaomassagem:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    background-color: #F4DFC8;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hotelparadisefooter{
+    font-size: 15px;
+    width: 30%;
+    height: 50%;
+    color: #000;
+    position: relative;
+    bottom: -100px;
+}
+
+.informacoes{
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -50px;
+    left: -175px;
+    color: #000;
+}
+
+.sociais{
+    height: 50%;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    bottom: -30px;
+}

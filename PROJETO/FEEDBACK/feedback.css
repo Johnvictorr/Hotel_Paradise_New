@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://img.freepik.com/vetores-premium/elemento-de-luz-abstrato-para-o-fundo-da-decoracao-da-capa_29865-1904.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    height: 110px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    letter-spacing: 5px;
+    margin-left: 30px;
+}
+
+.avaliacao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avaliacaoformulario{
+    width: 800px;
+    height: 500px;
+    background-color: #F4EAE0;
+    opacity: 0.9;
+    position: relative;
+    bottom: -75px;
+    right: -360px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    outline: unset;
+}
+
+.star {
+    border: none;
+    float: left;
+    position: relative;
+    right: -500px;
+    top: -250px;
+    background-color: #F4DFC8;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.star input {
+    display: none;
+}
+
+.star label {
+    float: right;
+    cursor: pointer;
+}
+
+.star label:before {
+    content: '★';
+    margin: 5px;
+    font-size: 2.5em;
+    color: black;
+}
+
+.star input:checked ~ label:before {
+    color: #FFD700;
+}
+
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: -40px;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+    color: #000;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -90px;
+    right: -268px;
+}
+
+button:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+footer{
+    background-color: #F4DFC8;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 127px;
+}
+
+.hotelparadisefooter{
+    font-size: 15px;
+    width: 30%;
+    height: 50%;
+    color: #000;
+    position: relative;
+    bottom: -100px;
+}
+
+.informacoes{
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: -50px;
+    left: -175px;
+    color: #000;
+}
+
+.sociais{
+    height: 50%;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    bottom: -30px;
+}
